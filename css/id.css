@@ -1,0 +1,117 @@
+#headerHome {width:100%; background:urhttp://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-topo-home.png) top center no-repeat; position:relative;}
+#headerHome div.base {width:980px; margin:auto;}
+#headerHome img.logotipo {width:165px; height:165px; float:left; padding-top:12px; padding-left:56px;}
+#headerHome div.info-contato {float:right; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-info-contato.png) left no-repeat; padding-left:40px; margin-top:25px; margin-right:20px;}
+#headerHome div.info-contato p {font-family: 'oswaldbold'; font-size:18px; line-height:22px;}
+#headerHome div.info-contato p:nth-child(1){ color:#444444;}
+#headerHome div.info-contato p:nth-child(2){ color:#7B90C5;}
+#headerHome ul.redes {padding-top:115px; float:left;}
+#headerHome ul.redes li {list-style:none; float:left; padding-right:20px;}
+#headerHome ul.redes li a {opacity:0.5;}
+#headerHome ul.redes li a:hover {opacity:1; transition: opacity 0.8s;}
+#headerHome nav#menu {float:right; padding-top:45px; padding-right:50px;}
+#headerHome nav#menu ul li {list-style:none; float:left; padding-left:10px;}
+#headerHome nav#menu ul li a {color:#999999; padding-left:10px; padding-right:10px; padding-top:3px; padding-bottom:3px; font-family: 'oswaldregular'; font-size:20px;}
+#headerHome nav#menu ul li a:hover {background:#333; color:#FFF; padding-left:10px; padding-right:10px; padding-top:3px; padding-bottom:3px;  font-family: 'oswaldregular'; font-size:20px;     transition-property: background-color;  transition-timing-function: ease; transition-duration: 1s; transition-property: color;}
+
+#slider-principal {width:965px; height:335px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/banner/bg.png) no-repeat; margin:auto;}
+
+#pg-home {width:100%; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-pagina.jpg) bottom repeat-x; padding-bottom:100px;}
+#frase {width:965px; height:120px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-frase.jpg) top no-repeat; margin:auto; padding-top:30px;}
+#frase p {font-family: 'oswaldlight'; font-size:26px; width:820px; margin:auto; color:#467E72; text-align:center;}
+#frase p span {color:#F79A1F;}
+#frase p:nth-child(2){ font-size:18px; text-align:right; padding-right:60px; padding-top:10px;}
+#destaques {width:965px; margin:auto;}
+#chamadas div.chamada {padding-top:20px;}
+#chamadas {width:310px;}
+#chamadas div.chamada p.titulo01 {font-family: 'robotolight'; font-size:26px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/icon-agencia01.png) left no-repeat; padding-left:50px; height:45px; line-height:45px;}
+#chamadas div.chamada p.titulo02 {font-family: 'robotolight'; font-size:26px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/icon-contato02.png) left no-repeat; padding-left:50px; height:45px; line-height:45px;}
+#chamadas div.chamada p.txt {font-size:11px; width:250px; line-height:22px; padding-top:10px; padding-left:50px;}
+#chamadas div.chamada p.txt a {color:#3194BD; font-family: 'oswaldlight'; font-size:16px;}
+#chamadas div.chamada p.txt a:hover {color:#F79B20; transition-timing-function: ease; transition-duration: 1s; transition-property: color;}
+
+#cm-servicos {width:585px; height:360px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-icon-serv.png) no-repeat; float:right; padding-top:25px;}
+#cm-servicos ul {}
+#cm-servicos ul li {list-style:none; width:240px; float:left; padding-left:10px; padding-right:10px;}
+#cm-servicos ul li div.bg {width:207px; height:172px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-chamada-servico01.png) no-repeat; padding:15px;}
+#cm-servicos ul li div.bg h2 {color:#F7991F; font-family: 'oswaldbold'; font-size:25px;}
+#cm-servicos ul li div.bg p {font-family: 'oswaldlight'; font-size:14px; padding-top:5px;}
+#cm-servicos ul li div.icon {width:100px; height:100px; padding-left:65px; padding-top:10px;}
+#cm-servicos ul li a {color:#3194BD; font-family: 'oswaldlight'; font-size:14px;}
+#cm-servicos ul li a:hover {color:#F79B20; transition-timing-function: ease; transition-duration: 1s; transition-property: color;}
+
+#sub-footer {width:100%; height:95px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-sub-footer.png) repeat-x;}
+#sub-footer p {font-family: 'robotolight'; font-size:30px; color:#FFF; width:965px; margin:auto; text-align:center; line-height:93px;}
+#sub-footer p span {font-family: 'robotoregular';}
+
+#footer {width:100%;}
+#footer div.base {width:965px; margin:auto;}
+#footer div.coluna01 {width:310px; float:left;}
+#footer div.coluna01 p {font-size:14px; line-height:22px; padding-top:10px; padding-bottom:10px;}
+#footer h3 {font-family: 'robotoregular'; font-size:26px; padding-bottom:5px; margin-bottom:10px; border-bottom:2px solid #EDEDED;}
+#footer h3 span {font-family: 'robotolight';}
+#footer div.coluna01 ul {padding-bottom:20px;}
+#footer div.coluna01 ul li {list-style:none; line-height:22px;}
+#footer div.coluna01 ul li:before { content: url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/list.jpg); padding-right:5px; }
+#footer div.coluna01 ul li a {color:#000;}
+#footer div.coluna01 ul li a:hover {color:#7C90C6; transition-timing-function: ease; transition-duration: 1s; transition-property: color;}
+#footer div.coluna02 {width:310px; float:left; padding-left:20px;}
+#footer div.coluna02 li {list-style:none; float:left; padding-right:20px;}
+#footer div.coluna02 li a {opacity:0.5;}
+#footer div.coluna02 li a:hover {opacity:1; transition: opacity 0.8s;}
+#footer div.coluna02 div.info-contato {float:right; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-info-contato.png) left no-repeat; padding-left:40px; margin-top:50px; margin-right:20px; margin-bottom:10px;}
+#footer div.coluna02 div.info-contato p {font-family: 'oswaldbold'; font-size:16px; line-height:22px;}
+#footer div.coluna02 div.info-contato p:nth-child(1){ color:#444444;}
+#footer div.coluna02 div.info-contato p:nth-child(2){ color:#7B90C5;}
+#footer div.coluna03 {width:300px; float:left; padding-left:20px;}
+#direitos {width:100%; border-top:1px solid #CCC; font-size:12px; line-height:22px; margin-top:15px;}
+#direitos p {padding:8px; color:#467E72;}
+#direitos p:nth-child(1){float:left; }
+#direitos p:nth-child(2){float:right; }
+#direitos p:nth-child(2) a {color:#F9BD52;}
+
+/**/
+#bg-agencia {width:100%; height:240px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-agencia.jpg) center no-repeat;}
+#bg-agencia div.centro {width:930px; margin:auto; padding-top:80px;}
+#bg-agencia h1 { font-family: 'oswaldbold'; font-size:50px; color:#F7991F;  font-weight:normal; padding-bottom:20px;}
+#bg-agencia h2 {width:600px;  font-size:14px; font-weight:normal;}
+
+#bg-servicos {width:100%; height:240px; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-servicos.jpg) center no-repeat;}
+#bg-servicos div.centro {width:930px; margin:auto; padding-top:80px;}
+#bg-servicos h1 { font-family: 'oswaldbold'; font-size:50px; color:#F7991F;  font-weight:normal; padding-bottom:20px;}
+#bg-servicos h2 {width:600px;  font-size:14px; font-weight:normal;}
+
+
+
+/**/
+#internas {width:100%; background:url(http://www.aboutblankproducoes.com.br/website/atributos/imagens/bg-pagina.jpg) bottom repeat-x; padding-bottom:100px; color:#333;}
+#internas div.base {width:965px; margin:auto; padding-top:20px; }
+#internas div#breadcrumb a {color:#7B90C5;}
+#internas p {padding-top:25px;}
+#internas h3 {font-family: 'robotolight'; font-size:25px; text-align:center; margin-top:25px; margin-bottom:25px;}
+#internas h3 span { border-bottom:4px solid #C8D0E7; padding-bottom:5px;}
+#internas div.sub-txt {padding-top:40px;}
+#internas div.sub-txt img {float:left; padding-right:30px;}
+#internas h4 {font-family: 'robotolight'; font-size:25px; margin-top:25px;}
+#internas h4 span { border-bottom:4px solid #C8D0E7; padding-bottom:5px;}
+
+#internas div.tp-servicos {width:375px; float:left; padding-left:70px; padding-right:35px; padding-top:25px; padding-bottom:25px;}
+#internas div.tp-servicos img {float:left; padding-right:15px; padding-bottom:5px;}
+#internas div.tp-servicos h5 {font-family: 'oswaldbold'; font-size:25px; color:#F7991F; padding-bottom:5px; font-weight:normal;}
+#internas div.tp-servicos p {padding:0; margin:0; font-size:13px; line-height:20px; padding-bottom:25px;}
+#internas div.tp-servicos ul li {margin-left:20px;}
+
+#local {width:350px; float:right;}
+#local p {padding:0; margin:0;}
+#local p.titulo {font-family: 'robotolight'; font-size:25px; padding-top:20px; padding-bottom:20px;}
+#internas form p {padding:0; margin:0; padding-top:10px;}
+#internas form p label {font-weight:bold; color:#7B90C5;}
+#internas form input.campo {width:540px; height:30px; line-height:30px; border:1px solid #0CC; padding:5px;}
+#internas form textarea {width:540px; height:50px;  border:1px solid #0CC; padding:5px;}
+#internas form input.botao {background:#7B90C5; color:#FFF; border:0; border-radius:20px; padding:10px;}
+
+.sucesso {width:500px; padding-top:40px;}
+.sucesso p {text-align:center;}
+.sucesso p.titulo {font-family: 'oswaldbold'; font-size:25px; color:#F7991F; padding-bottom:5px; font-weight:normal;}
+.sucesso p a {color:#7B90C5;}
+.sucesso img {width:128px; height:80px; margin:auto; padding-top:20px; padding-bottom:20px;}

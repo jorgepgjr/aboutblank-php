@@ -1,0 +1,105 @@
+
+#container {
+	width:965px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+
+#example {
+	width:965px;
+	height:312px;
+	position:relative;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:965px;
+	height:312px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	z-index:100;
+}
+
+
+.slides_container {
+	width:965px;
+	height:312px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+
+
+.slides_container a {
+	width:965px;
+	height:312px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:140px;
+	left:-25px;
+	width:24px;
+	height:43px;
+	display:none;
+	z-index:101;
+	
+}
+
+#slides .next {
+	left:945px;
+	display:none;
+}
+
+
+
+.pagination {
+	width:100px;
+	margin:auto;
+	position:absolute;
+	right:140px;
+	top:230px;
+	z-index:10000;
+	
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../imagens/banner/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+
