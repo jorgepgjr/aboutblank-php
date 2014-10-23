@@ -29,7 +29,7 @@
 	 	 // remove the last comma
 	 	 $ids = rtrim($ids,',');
 
-		$con = mysqli_connect("localhost:3306", "root", "","aboutblank");
+		include 'connection.php';
 		// Check connection
 		if (mysqli_connect_errno()) {
 		  echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -49,6 +49,12 @@
 	 	mysqli_close($con);
  	}
 ?>
-
+<a href='cart_clean.php'>
+		Limpa Carrinho
+	</a>
+	<br/>
+<a href="index.php">
+  lista de videos
+</a>
 </body>
 </html>
