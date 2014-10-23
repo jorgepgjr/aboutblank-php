@@ -20,6 +20,20 @@ $tituloErr = $descricaoErr = $urlErr =  "";
      Url: <input type="text" name="url" value="<?php echo $url;?>">
      <span class="error"><?php echo $urlErr;?></span>     
      <br><br>
+     Categoria: <select name="categoria">
+     <?php
+        include 'connection.php';
+        $result = mysqli_query($con,"SELECT * FROM categoria");
+        while($row = mysqli_fetch_array($result)) {
+            echo "<option value=\"{$row['nome']}\">{$row['nome']}</option>";
+        }
+        mysqli_close($con);
+     ?>
+        
+    </select>
+
+
+
      <input type="submit" name="add" value="Submit"> 
 </form>
 <a href="index.php">
