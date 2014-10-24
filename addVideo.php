@@ -11,6 +11,7 @@
   $titulo = $_POST['titulo'];
   $descricao = $_POST['descricao'];
   $url = $_POST['url'];
+  $categoria = $_POST['categoria'];
 
   include "connection.php";
   // Check connection
@@ -19,20 +20,31 @@
   }
 
   $sql = "INSERT into video ".
-         "(titulo, descricao, categoria, url) ".
-         "VALUES ('$titulo', '$descricao', 'PESSOA', '$url')";
+         "(titulo, descricao, url) ".
+         "VALUES ('$titulo', '$descricao', '$url')";
   $retval = mysqli_query($con,$sql);
   if(! $retval )
   { 
     die('Could not enter data: ' . mysql_error());
   }
 
+$id = mysqli_insert_id($con);
+$sql = "INSERT into video_categoria ".
+         "(id_video, id_categoria) ".
+         "VALUES ('$id', '$categoria')";
+$retval = mysqli_query($con,$sql);
+if(! $retval )
+  { 
+    die('Could not enter data: ' . mysql_error());
+  }
   mysqli_close($con);
-  echo "Video $titulo incluido com sucesso!";
+  echo "Video $titulo incluido com sucesso! $categoria";
 ?>
+<br/>
 <a href="addFormVideo.php">
   Incluir novo video
 </a>
+<br/>
 <a href="index.php">
   lista de videos
 </a>

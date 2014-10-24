@@ -6,24 +6,26 @@
 
 </head>
 <body>
-	<?php include 'header.php';
-	?>
 
 <?php
-
-	include("video.php");
-	$video1 = new Video;
-	$video1->url = "www.teste1.com";
-	$video2 = new Video;
-	$video2->url = "www.teste2.com";
-
-?>
-
-<?php
-
-
+include 'header.php';
 include ("connection.php");
-$result = mysqli_query($con,"SELECT * FROM video");
+?>
+<form method="post" action="index.php">
+	Pesquisar: <input type="text" name="search"/>
+	<input type="submit" value="Submit"> 
+</form>
+<?php
+$search = '';
+$search = $_POST['search'];
+
+if ($search == '') {
+	$result = mysqli_query($con,"SELECT * FROM video");	
+	echo "SELECT * FROM video";
+}else {
+	echo "SELECT * FROM video where titulo like '%$search%' ";
+	$result = mysqli_query($con,"SELECT * FROM video where titulo like '%$search%' ");	
+}
 
 while($row = mysqli_fetch_array($result)) {
   echo "<div>";     
@@ -42,7 +44,6 @@ while($row = mysqli_fetch_array($result)) {
 mysqli_close($con);
 
 ?>
-
 	<a href='cart_list.php'> 
 		Lista de itens no Carrinho
 	</a>

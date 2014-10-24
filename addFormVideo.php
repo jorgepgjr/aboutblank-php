@@ -25,7 +25,7 @@ $tituloErr = $descricaoErr = $urlErr =  "";
         include 'connection.php';
         $result = mysqli_query($con,"SELECT * FROM categoria");
         while($row = mysqli_fetch_array($result)) {
-            echo "<option value=\"{$row['nome']}\">{$row['nome']}</option>";
+            echo "<option value=\"{$row['id']}\">{$row['nome']}</option>";
         }
         mysqli_close($con);
      ?>
